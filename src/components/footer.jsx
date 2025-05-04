@@ -2,8 +2,10 @@ import React from 'react'
 import { logo } from '../constant/image'
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom'
 
 function Footer() {
+    const navigate = useNavigate();
     return (
         <footer className=" text-[20px] font-semibold  text-black">
             <div className="container px-5 py-8 lg:py-0 mx-auto gap-16 lg:gap-48 flex md:items-center lg:justify-between md:flex-row md:flex-nowrap flex-wrap flex-col">
@@ -30,15 +32,35 @@ function Footer() {
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="font-medium tracking-widest mb-10">Quick Link</h2>
                         <nav className="list-none flex flex-col gap-6 mb-10">
-                            <li>
-                                <a href={'/'} className="cursor-pointer hover:text-primary">Home</a>
-                            </li>
-                            <li>
-                                <a href={'/about'} className="cursor-pointer hover:text-primary">About US</a>
-                            </li>
-                            <li>
-                                <a href={'/contact'} className="cursor-pointer hover:text-primary">Contact</a>
-                            </li>
+                        <button
+                    className="text-black"
+                    onClick={() => {
+                        navigate('/');
+                   
+                    }}
+                >
+                    Home
+                </button>
+               
+                <button
+                    className="text-black"
+                    onClick={() => {
+                        navigate('/about');
+                   
+                    }}
+                >
+                    About
+                </button>
+                <button
+                    className="text-black"
+                    onClick={() => {
+                        navigate('/contact');
+                   
+                    }}
+                >
+                    Contact
+                </button>
+                           
 
                         </nav>
                     </div>

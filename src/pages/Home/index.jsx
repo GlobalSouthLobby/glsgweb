@@ -8,6 +8,7 @@ import GrowthComparisonSection from '../../components/challenges';
 import TeamSection from '../../components/team';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
+import { useLocation } from "react-router-dom";
 
 const bgImages = [
     globemap,
@@ -23,6 +24,12 @@ function Home() {
     const [currentBg, setCurrentBg] = useState(0);
     const [selectedMember, setSelectedMember] = useState(null);
     const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
     useEffect(() => {
 
         const interval = setInterval(() => {
