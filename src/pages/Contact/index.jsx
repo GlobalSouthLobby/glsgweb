@@ -4,6 +4,7 @@ import Footer from '../../components/footer'
 import { arrow, lobbyfirm, lobbyist, washingtonmap, firstdc, seconddc, dome1, dome2 } from '../../constant/image'
 import { useNavigate } from 'react-router-dom'
 import { MdLocationOn, MdEmail, MdPhone } from 'react-icons/md';
+import { useLocation } from "react-router-dom";
 
 const bgImages = [
   firstdc,
@@ -14,6 +15,12 @@ const bgImages = [
 function Contact() {
   const [currentBg, setCurrentBg] = useState(0);
   const navigate = useNavigate();
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   useEffect(() => {
 
     const interval = setInterval(() => {

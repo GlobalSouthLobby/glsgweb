@@ -3,9 +3,16 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import { arrow, lobbyfirm, lobbyist } from '../../constant/image'
 import { useNavigate } from 'react-router-dom'
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function About() {
     const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <div className="relative">
             <div
