@@ -10,7 +10,7 @@ function Header() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <nav className="w-full flex flex-col md:flex-row justify-between items-center p-4 md:p-6 relative">
+        <nav className="z-[99999999] w-full flex flex-col md:flex-row justify-between items-center p-4 md:p-6 relative">
             {/* Logo and Menu Button */}
             <div className="flex justify-between items-center w-full md:w-auto">
                 <div>
@@ -57,21 +57,22 @@ function Header() {
                 <button
                     className="bg-[#13515E] text-white px-4 py-2 rounded-full hover:bg-gray-900 mb-4 md:mb-0"
                     onClick={() => {
-                        navigate('/contact');
-                        setMenuOpen(false); // Close menu after navigating
-                    }}
-                >
-                    Contact
-                </button>
-                <button
-                    className="bg-[#13515E] text-white px-4 py-2 rounded-full hover:bg-gray-900 mb-4 md:mb-0"
-                    onClick={() => {
                         navigate('/atwork');
                         setMenuOpen(false); // Close menu after navigating
                     }}
                 >
                     At Work
                 </button>
+                <button
+                    className="bg-[#13515E] text-white px-4 py-2 rounded-full hover:bg-gray-900 mb-4 md:mb-0"
+                    onClick={() => {
+                        navigate('/contact');
+                        setMenuOpen(false); // Close menu after navigating
+                    }}
+                >
+                    Contact
+                </button>
+               
                 {/* <a href="/" className="hover:font-bold hover:border-b-2 hover:border-[#13515E] mb-4 md:mb-0">Home</a>
                 <a href="/about" className="hover:font-bold hover:border-b-2 hover:border-[#13515E] mb-4 md:mb-0">About</a>
                 <a href="/contact" className="hover:font-bold hover:border-b-2 hover:border-[#13515E] mb-4 md:mb-0">Contact</a> */}
