@@ -25,7 +25,7 @@ const PEOPLE = [
         name: "Jasper Li",
         role: "Public Affairs Lead",
         department: "Trade",
-        region: "At a meeting",
+        region: "U.S. Congress in Session",
         location: "Singapore",
         tags: ["Trade", "APAC"],
         img: uscongressman1
@@ -45,7 +45,7 @@ const PEOPLE = [
         name: "David Johnson",
         role: "Senior Lobbyist",
         department: "Finance",
-        region: "Our group of Lobbyist",
+        region: "U.S. Congress, Class of 2025.",
         location: "Washington, D.C.",
         tags: ["Finance", "Policy"],
         img: uscongressman,
@@ -55,7 +55,7 @@ const PEOPLE = [
         name: "María Fernanda",
         role: "Regulatory Affairs",
         department: "Technology",
-        region: "At my workplace",
+        region: "Mr Emmanuel Ezeh arriving for a Lobby Session at the U.S Congress",
         location: "Mexico City, Mexico",
         tags: ["Tech", "Regulation"],
         img: emmanueldr4
@@ -66,7 +66,7 @@ const PEOPLE = [
         name: "Aisha Khan",
         role: "Advocacy Specialist",
         department: "Education",
-        region: "At the office",
+        region: "Mr. Emmanuel Ezeh Director- Inter GovernmentalRelations, at the office.",
         location: "Dubai, UAE",
         tags: ["Education", "Youth"],
         img: emmanueldr2
@@ -76,7 +76,7 @@ const PEOPLE = [
         name: "Liam O'Connor",
         role: "Stakeholder Manager",
         department: "Agriculture",
-        region: "Inter Governmental Relations Director ",
+        region: "Mr. Emmanuel Ezeh - Inter Governmental Relations Director ",
         location: "Dublin, Ireland",
         tags: ["Agri", "Food"],
         img: emmanueldr3
