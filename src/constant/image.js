@@ -32,7 +32,20 @@ import emma from '../assets/image/Emmanuelbg.jpg';
 import trump from '../assets/image/TRUMP.png';
 import dome1 from '../assets/image/dome1.jpg';
 import dome2 from '../assets/image/dome2.png';
+import emmanueldr from '../assets/image/ezehcongress.jpg';
+import emmanueldr2 from '../assets/image/ezehcongress3.jpg';
+import uscongressman from '../assets/image/uscongressman.jpg';
+import uscongressman1 from '../assets/image/uscongressman1.jpg'
+import emmanueldr3 from '../assets/image/ezehcongress5.jpg';
+import emmanueldr4 from '../assets/image/ezehcongress2.jpg';
+
 export {
+    emmanueldr,
+    emmanueldr2,
+    emmanueldr3,
+    emmanueldr4,
+    uscongressman,
+    uscongressman1,
     logo,
     lobbyman,
     lobbypeople,
