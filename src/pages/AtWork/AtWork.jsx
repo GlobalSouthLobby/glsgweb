@@ -6,6 +6,7 @@ import Footer from '../../components/footer'
 import { arrow, lobbyfirm, lobbyist, washingtonmap, firstdc, seconddc, dome1, dome2, emmanueldr, emmanueldr2, uscongressman, uscongressman1, emmanueldr3, emmanueldr4 } from '../../constant/image'
 import { useNavigate } from 'react-router-dom'
 import { MdLocationOn, MdEmail, MdPhone } from 'react-icons/md';
+import { Helmet } from "react-helmet-async";
 
 
 // ---------- Sample Data ----------
@@ -60,7 +61,7 @@ const PEOPLE = [
         tags: ["Tech", "Regulation"],
         img: emmanueldr4
     },
-    
+
     {
         id: 7,
         name: "Aisha Khan",
@@ -112,7 +113,7 @@ const PersonCard = ({ person, onOpen }) => {
                         <Globe2 className="h-4 w-4" />
                         <span className="font-extrabold">{person.region}</span>
                     </div>
-                  
+
                 </div>
             </div>
         </motion.button>
@@ -241,6 +242,16 @@ export default function AtWork() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
             {/* Hero / Header */}
+            <Helmet>
+                <title>Global South Lobby Group USA | Advocacy & Lobbying</title>
+                <meta
+                    name="description"
+                    content="Global South Lobby Group USA, At Work — Our People"
+                />
+                <meta name="keywords" content="Global South, Lobbying, Advocacy, USA, Policy, International Relations" />
+                <meta name="author" content="Global South Lobby Group USA" />
+                <link rel="canonical" href="https://gslgusa.org/atwork" />
+            </Helmet>
             <section className="relative">
                 <Header />
                 <div className="absolute inset-0 -z-10 bg-[radial-gradient(40rem_20rem_at_50%_-5rem,rgba(20,20,20,0.06),transparent)]" />
