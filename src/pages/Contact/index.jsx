@@ -4,6 +4,7 @@ import Footer from '../../components/footer'
 import { arrow, lobbyfirm, lobbyist, washingtonmap, firstdc, seconddc, dome1, dome2 } from '../../constant/image'
 import { useNavigate } from 'react-router-dom'
 import { MdLocationOn, MdEmail, MdPhone } from 'react-icons/md';
+import { Helmet } from 'react-helmet-async'
 
 const bgImages = [
   firstdc,
@@ -24,6 +25,16 @@ function Contact() {
   }, []);
   return (
     <div className="relative">
+      <Helmet>
+        <title>Contact US: Global South Lobby Group USA | Advocacy & Lobbying</title>
+        <meta
+          name="description"
+          content="Get in touch with the Global South Lobby Group USA. Contact our Washington D.C. office for advocacy, lobbying, or partnership inquiries"
+        />
+        <meta name="keywords" content="Global South, Lobbying, Advocacy, USA, Policy, International Relations, contact," />
+        <meta name="author" content="Global South Lobby Group USA" />
+        <link rel="canonical" href="https://gslgusa.org/contact" />
+      </Helmet>
       <div
         className="relative bg-cover bg-center bg-no-repeat  py-[5px]  text-black transition-all duration-1000 ease-in-out"
       >

@@ -3,6 +3,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import { arrow, lobbyfirm, lobbyist } from '../../constant/image'
 import { useNavigate } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 function About() {
     const navigate = useNavigate();
@@ -12,7 +13,16 @@ function About() {
                 className="relative bg-cover bg-center bg-no-repeat py-[5px]  text-black transition-all duration-1000 ease-in-out"
 
             >
-
+                <Helmet>
+                                <title>About Global South Lobby Group USA | Advocacy & Lobbying</title>
+                                <meta
+                                    name="description"
+                                    content="Advocate and protect the rights and interests of our clients, including pro-active and defensive lobbying. We also facilitate introductions of U.S Law makers to our clients and arrange person to person meetings if and when necessary. Here in Washington D.C. USA"
+                                />
+                                <meta name="keywords" content="Global South, Lobbying, Advocacy, USA, Policy, International Relations" />
+                                <meta name="author" content="Global South Lobby Group USA" />
+                                <link rel="canonical" href="https://gslgusa.org/about" />
+                            </Helmet>
                 {/* Content above overlay */}
                 <div className="relative z-10">
 
