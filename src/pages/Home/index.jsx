@@ -38,15 +38,15 @@ function Home() {
     <>
       <Helmet>
         <title>
-          Global South Lobby Group USA | Advocacy, Policy & Lobbying in Washington D.C.
+          (GSLG) Global South Lobby Group USA | Advocacy, Policy & Lobbying in Washington D.C.
         </title>
         <meta
           name="description"
-          content="Global South Lobby Group USA champions policies that impact the Global South through lobbying, advocacy, and international partnerships in Washington D.C."
+          content="(GSLG) Global South Lobby Group  USA champions policies that impact the Global South through lobbying, advocacy, and international partnerships in Washington D.C."
         />
         <meta
           name="keywords"
-          content="Global South, Lobby Group, Advocacy, Lobbying, Washington D.C., International Relations, Policy, Diaspora, Development Aid"
+          content="Global South, GSLGUSA , Lobby Group, Advocacy, Lobbying, Washington D.C., International Relations, Policy, Diaspora, Development Aid"
         />
         <meta name="author" content="Global South Lobby Group USA" />
         <link rel="canonical" href="https://gslgusa.org/" />
