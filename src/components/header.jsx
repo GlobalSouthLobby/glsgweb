@@ -14,15 +14,16 @@ function Header() {
             {/* Logo and Menu Button */}
             <div className="flex justify-between items-center w-full md:w-auto">
                 <div>
-                <div className="flex items-center">
-                    <img src={logo} alt="Logo" className="w-[50px] md:w-[100px]" />
-                    <span className="ml-2 text-sm md:text-base font-bold">
-                        Global South Lobby <br className="hidden md:block" /> Group USA
-                    </span>
+                    <div className="flex items-center">
+                        <img src={logo} alt="Global South Lobby Group USA logo" className="w-[50px] md:w-[100px]" />
+                        <span className="ml-2 text-sm md:text-base font-bold">
+                            Global South Lobby <br className="hidden md:block" /> Group USA (GSLGUSA)
+                        </span>
+                    </div>
+                    <p className='italic font-semibold'>*Together We Rise*</p>
+
                 </div>
-                <p className='italic font-semibold'>*Together We Rise*</p>
-                </div>
-                
+
 
                 {/* Hamburger Icon - visible on small screens */}
                 <div className="md:hidden">
@@ -72,7 +73,7 @@ function Header() {
                 >
                     Contact
                 </button>
-               
+
                 {/* <a href="/" className="hover:font-bold hover:border-b-2 hover:border-[#13515E] mb-4 md:mb-0">Home</a>
                 <a href="/about" className="hover:font-bold hover:border-b-2 hover:border-[#13515E] mb-4 md:mb-0">About</a>
                 <a href="/contact" className="hover:font-bold hover:border-b-2 hover:border-[#13515E] mb-4 md:mb-0">Contact</a> */}

@@ -42,12 +42,14 @@ function Home() {
         </title>
         <meta
           name="description"
-          content="(GSLG) Global South Lobby Group  USA champions policies that impact the Global South through lobbying, advocacy, and international partnerships in Washington D.C."
+          content="Global South Lobby Group USA (GSLGUSA) advocates for Global South nations from Washington D.C. through lobbying, international partnerships. Join us in championing fair representation, stronger diplomacy, and sustainable development."
         />
-        <meta
-          name="keywords"
-          content="Global South, GSLGUSA , Lobby Group, Advocacy, Lobbying, Washington D.C., International Relations, Policy, Diaspora, Development Aid"
-        />
+
+<meta
+  name="keywords"
+  content="Global South Lobby Group USA, GSLGUSA, Global South advocacy, international lobbying Washington D.C., diaspora representation, development aid, foreign policy lobbying, international relations, advocacy group USA"
+/>
+
         <meta name="author" content="Global South Lobby Group USA" />
         <link rel="canonical" href="https://gslgusa.org/" />
 
@@ -80,7 +82,7 @@ function Home() {
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Customer Support",
-                "email": "info@gslgusa.org"
+                "email": "Result@gslgusa.org"
               }
             }
           `}
@@ -93,14 +95,16 @@ function Home() {
           <div className="relative z-10">
             <Header />
             <section className="text-center px-[20px] lg:px-[40px] pt-5">
-              <h1 className="text-[40px] font-bold mb-4">
-                Advocacy and Lobbying <br />
-                <span className="text-[#13515E]">For Global South Countries</span>
+              <h1 className="text-[40px] font-bold mb-4 leading-tight">
+                Global South Lobby Group USA (GSLGUSA) <br />
+                <span className="text-[#13515E]">
+                  Advocacy and Lobbying
+                </span>
               </h1>
               <p className="max-w-2xl mx-auto text-lg">
                 Championing policies that impact the Global South from the heart of the USA.
               </p>
-              
+
             </section>
             <div
               className="relative mt-[20px] bg-cover bg-center bg-no-repeat h-[400px] text-transparent transition-all duration-1000 ease-in-out"
@@ -199,7 +203,7 @@ function Home() {
 
         {/* FAQ Section */}
         <section className="py-12 px-6 lg:px-24">
-         
+
           {/* FAQ Schema */}
           <script type="application/ld+json">
             {`
